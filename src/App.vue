@@ -9,7 +9,7 @@
 
 <script>
 
-import Statues from './components/Statues.vue'
+import Statues from './components/Statues.vue1'
 import Paintings from './components/Paintings.vue'
 
 export default {
