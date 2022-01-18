@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-
-    <Statues/>
-    <Paintings/>
-    <button @click="loadData">Adatok betöltése</button>
+    <button @click="statue = !statue">Statue</button>
+    <button @click="painting = !painting">Paintings</button>
+    <div v-if="statue"><Statues/></div>
+    <div v-if="painting"><Paintings/></div>
   </div>
 </template>
 
@@ -18,7 +18,12 @@ export default {
     Statues,
     Paintings
   },
-  
+  data(){
+    return{
+    statue : false,
+    painting : false,
+    }
+  },
   
 }
 </script>
