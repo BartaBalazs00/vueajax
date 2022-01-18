@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="Paintings">
 
     <table>
       <thead>
@@ -49,7 +49,7 @@
 
 <script>
 export default {
-  name: 'App',
+  name: 'Paintings',
   components: {
   },
   data() {

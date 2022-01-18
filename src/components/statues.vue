@@ -1,6 +1,5 @@
 <template>
-  <div id="app">
-
+<div class="statues">
     <table>
       <thead>
         <tr>
@@ -44,13 +43,13 @@
       </tbody>
     </table>
     <button @click="loadData">Adatok betöltése</button>
-  </div>
+    </div>
 </template>
 
 <script>
 
 export default {
-  name: 'App',
+  name: 'Statues',
   components: {
   },
   data() {
