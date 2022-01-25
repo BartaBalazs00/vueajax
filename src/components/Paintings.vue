@@ -43,7 +43,6 @@
         </tr>
       </tbody>
     </table>
-    <button @click="loadData">Adatok betöltése</button>
   </div>
 </template>
 
